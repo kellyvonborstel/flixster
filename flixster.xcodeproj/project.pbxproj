@@ -14,6 +14,7 @@
 		15637BEE2355BB860070A47B /* flixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15637BED2355BB860070A47B /* flixsterTests.swift */; };
 		15637BF92355BB860070A47B /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15637BF82355BB860070A47B /* flixsterUITests.swift */; };
 		15637C072355C6690070A47B /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15637C062355C6690070A47B /* MoviesViewController.swift */; };
+		15637C09235861630070A47B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15637C08235861630070A47B /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		15637BF82355BB860070A47B /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		15637BFA2355BB860070A47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15637C062355C6690070A47B /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		15637C08235861630070A47B /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				15637BD82355BB840070A47B /* AppDelegate.swift */,
 				15637BDC2355BB840070A47B /* Main.storyboard */,
+				15637C08235861630070A47B /* MovieCell.swift */,
 				15637BDF2355BB860070A47B /* Assets.xcassets */,
 				15637BE12355BB860070A47B /* LaunchScreen.storyboard */,
 				15637BE42355BB860070A47B /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				15637BD92355BB840070A47B /* AppDelegate.swift in Sources */,
 				15637C072355C6690070A47B /* MoviesViewController.swift in Sources */,
+				15637C09235861630070A47B /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
